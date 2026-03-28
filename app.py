@@ -6,5 +6,8 @@ def hello_world():
 
 
 hello_world()
-text = input("Bitte Text eingeben: ")
-print(text)
+while True:
+    text = input("Bitte Text eingeben (oder 'quit' zum Beenden): ")
+    if text.lower() == "quit":
+        break
+    print(text)
