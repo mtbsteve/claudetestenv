@@ -4,14 +4,16 @@ A collection of tools and documents for energy consultant training (Energieberat
 
 ## Tibber Live (`tibber_live.py`)
 
-Real-time energy measurement viewer that connects to the Tibber GraphQL API via WebSocket and streams live data from Tibber Pulse/Watty devices.
+Standalone Python script (not a HACS component) that connects to the Tibber GraphQL API via WebSocket and streams live measurement data from Tibber Pulse/Watty devices in a terminal side-by-side view.
 
 ### Features
 
 - Side-by-side display for multiple homes
 - Live power consumption and production metrics
 - Quarter-hourly electricity pricing (EPEX Spot)
-- Min, average (Avg Price Today), and max price of the day
+- Min Price Today
+- **Avg Price Today** — average of all quarter-hourly prices for the current day
+- Max Price Today
 - Accumulated consumption, cost, and production
 - Auto-reconnect on connection loss
 
