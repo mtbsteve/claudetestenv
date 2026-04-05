@@ -11,7 +11,7 @@ Real-time energy measurement viewer that connects to the Tibber GraphQL API via 
 - Side-by-side display for multiple homes
 - Live power consumption and production metrics
 - Quarter-hourly electricity pricing (EPEX Spot)
-- Min, average, and max price of the day
+- Min, average (Avg Price Today), and max price of the day
 - Accumulated consumption, cost, and production
 - Auto-reconnect on connection loss
 
