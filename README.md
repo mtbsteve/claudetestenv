@@ -12,7 +12,7 @@ Standalone Python script (not a HACS component) that connects to the Tibber Grap
 - Live power consumption and production metrics
 - Quarter-hourly electricity pricing (EPEX Spot)
 - Min Price Today
-- **Avg Price Today** — average of all quarter-hourly prices for the current day
+- **Avg Price Today** — average of all quarter-hourly prices for the current day (4 decimal places)
 - Max Price Today
 - Accumulated consumption, cost, and production
 - Auto-reconnect on connection loss
